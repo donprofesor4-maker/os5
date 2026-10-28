@@ -1,5 +1,11 @@
 # OS5
 
-Misión azul: proyecto de archivos, lectura y presentaciones para quinto de primaria.
+Actividad de quinto de primaria: Misión azul.
 
-20 misiones. Todos los sitios y archivos son simulados dentro del navegador. La práctica se reinicia al recargar.
+- Normal: 20 misiones. Avanzado: 30 misiones.
+- Instrucciones numeradas con doble clic explícito y comprobación de ruta.
+- Protección contra pegar en carpetas equivocadas y confundir copiar/cortar.
+- Misión anterior y Reintentar restauran los archivos y diapositivas.
+- Robot guía, fichas de lectura y tolerancia de ortografía.
+
+Todo funciona dentro del navegador. Al recargar se reinicia la práctica.
