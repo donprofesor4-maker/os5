@@ -19,3 +19,10 @@ La ventana de Guardar como empieza en Descargas. El alumno elige una carpeta rea
 El juego guarda su propio progreso y bitácora en este navegador, separados de otros grados. Descargar bitácora genera un TXT con fechas, encargos, errores, intentos y archivos resultantes. No mide ayuda externa ni equivale a una calificación escolar. El guardado local no se transfiere automáticamente a otra computadora. Las misiones originales, Robot Lab y las tres animaciones de OS5 se conservan.
 
 Verificación: `node tests/entregas.cjs` recorre los 36 encargos y comprueba errores sin avance, extensiones, versiones, movimientos, respaldo, desbloqueos, bitácora y recarga.
+
+
+## Expediente y trimestre
+
+Entregas incluye acceso individual (nombre, grupo y clave de seis números), recuperación desde la nube y «Guardar y terminar clase» para registrar avances incompletos. Google Sheets conserva sesiones y evidencias, con resumen trimestral según encargos y fechas configurados por el profesor. Los seis retos avanzados se registran aparte. Cada encargo acreditado cuenta una sola vez por trimestre; los reportes repetidos no elevan la nota. El promedio es una propuesta para revisión docente. Ver [guía del registro](docente/REGISTRO.md).
+
+Pruebas: `node tests/entregas.cjs`, `node tests/registro.cjs`, `node tests/registro-cliente.cjs`. No incluir expedientes, códigos de clase ni credenciales en este repositorio.
